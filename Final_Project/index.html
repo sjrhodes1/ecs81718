@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="external.css"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <center>
+<style>
+body {
+    background-color: darkgrey;
+}
+* {box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: red;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+</style>
+</center>
+</head>
+<body>
+
+     <center>
+    <div class="container-fluid">
+  <div class="jumbotron" style="background-color:#DC143C" >
+    <h1>Sam Rhodes</h1>  
+    <p>My Life So Far</p>
+    </div>
+  
+          <nav class="navbar navbar-expand-sm .bg-warning" style="center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="https://sjrhodes1.github.io/ecs81718/index.html">Home Page</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://sjrhodes1.github.io/ecs81718/page2.html">Early Life</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://sjrhodes1.github.io/ecs81718/page3.html">Interests</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Music</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">School</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Family</a>
+      </li>
+  </ul>
+</nav>
+<br>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://ih1.redbubble.net/image.8672028.1414/flat,800x800,070,f.jpg" class="rounded-circle" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.flightclub.com/media/wysiwyg/flight-club-media-hero.jpg" class="rounded-circle" alt="Shoes">
+    </div>
+    <div class="carousel-item">
+      <img src="https://consequenceofsound.files.wordpress.com/2015/08/screen-shot-2015-08-02-at-4-02-21-pm.png?w=800" class="rounded-circle" alt="Music">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+</body>
+</html>
